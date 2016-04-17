@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         label.hidden = true
         view.backgroundColor = UIColor.blackColor()
 
-        coolstory.text = "Sarcrates, your tutorial doesn't work on my computer. Whenever I try to compile the code, it gives me an error \"Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[ setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key SomeRandomThingIWrote.'\" You've got to help me!!!"
+        coolstory.text = "Hi Sarcrate. This is Sasha. I know you from the video on youtube 'How To Make A Camera App' As i am currently learning IOS development, your videos help me a lot. Thank you!"
         coolstory.textColor = UIColor.yellowColor()
 
     }
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
 
     @IBAction func whathappensif(sender: AnyObject) {
         label.hidden = false
-        button.setTitle("It's Probably Fine", forState: .Normal)
+        button.setTitle("It's Probably Fine!", forState: .Normal)
     }
 
 
